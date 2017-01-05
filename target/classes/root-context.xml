@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<bean id="addressDao" class="com.nonage.dao.iBatis.AddressDAO_iBatis"
+		p:client-ref="sqlMapClient"
+	 />	
+		
+	 <bean id="cartDao" class="com.nonage.dao.iBatis.CartDAO_iBatis"
+		p:client-ref="sqlMapClient"
+	 />	
+	 
+	 <bean id="memberDao" class="com.nonage.dao.iBatis.MemberDAO_iBatis"
+		p:client-ref="sqlMapClient"
+	 />	
+	 
+	 <bean id="orderDao" class="com.nonage.dao.iBatis.OrderDAO_iBatis"
+		p:client-ref="sqlMapClient"
+	 />	
+	 
+	 <bean id="productDao" class="com.nonage.dao.iBatis.ProductDAO_iBatis"
+		p:client-ref="sqlMapClient"
+	 />	
+	 
+	 <bean id="qnaDao" class="com.nonage.dao.iBatis.QnaDAO_iBatis"
+		p:client-ref="sqlMapClient"
+	 />	
+	 
+	 <bean id="workerDao" class="com.nonage.dao.iBatis.WorkerDAO_iBatis"
+		p:client-ref="sqlMapClient"
+	 />	
+		
+</beans>

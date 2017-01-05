@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+#navbar {
+	font-size: 20pt;
+}
+
+#navbarMenu {
+	margin-top: 2%;
+}
+
+.navbar-header {
+	
+	margin-top: 2%;
+	padding: 0;
+}
+
+.navbar-brand {
+	font-size: 25pt;
+}
+
+.navbar-right {
+	margin-top: 1.5%;
+	padding: 0;
+}
+
+#section {
+	height: auto;
+	margin-top: 2%;
+}
+
+#prodSearch {
+	width: 100%;
+	margin-left: 25%;
+	margin-right: 0;
+}
+
+#buyerSearch {
+	width: 100%;
+	margin-left: 35%;
+	margin-right: 0;
+}
+
+#memberSearch {
+	width: 100%;
+	margin-left: 35%;
+	margin-right: 0;
+}
+
+#kind {
+	width: 20%;
+}
