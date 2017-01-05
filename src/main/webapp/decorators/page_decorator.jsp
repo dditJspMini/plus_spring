@@ -18,14 +18,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link href="css/shopping.css" rel="stylesheet">
-<link href="css/modal.css" rel="stylesheet">
-<link href="css/join.css" rel="stylesheet">
-<link href="css/footer-distributed-with-address-and-phones.css"
+<link href="<%=request.getContextPath() %>/css/shopping.css" rel="stylesheet">
+<link href="<%=request.getContextPath() %>/css/modal.css" rel="stylesheet">
+<link href="<%=request.getContextPath() %>/css/join.css" rel="stylesheet">
+<link href="<%=request.getContextPath() %>/css/footer-distributed-with-address-and-phones.css"
 	rel="stylesheet">
-<link href="css/cookie.css" rel="stylesheet">
-<link href="css/main.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
+<link href="<%=request.getContextPath() %>/css/cookie.css" rel="stylesheet">
+<link href="<%=request.getContextPath() %>/css/main.css" rel="stylesheet">
+<link href="<%=request.getContextPath() %>/css/style.css" rel="stylesheet">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script
@@ -35,11 +35,11 @@
 
 
 
-<script type="text/javascript" src="product/products.js"></script>
-<script type="text/javascript" src="member/members95.js"></script>
-<script type="text/javascript" src="mypage/mypages.js"></script>
-<script type="text/javascript" src="member/join.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath() %>/js/products.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath() %>/js/members87.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath() %>/js/mypages.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath() %>/js/join.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath() %>/js/custom.js"></script>
 <style>
 .bodywrap {
 	padding-top: 83px;
@@ -60,8 +60,8 @@
 							<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 								class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index.html"
-							style="padding-top: 10px;"><img src="image/logo.png"></a>
+						<a class="navbar-brand" href="<%=request.getContextPath() %>/index"
+							style="padding-top: 10px;"><img src="<%=request.getContextPath() %>/image/logo.png"></a>
 					</div>
 					<div class="collapse navbar-collapse" id="myNavbar"
 						style="padding-top: 8px;">
@@ -78,7 +78,7 @@
 											class="glyphicon glyphicon-log-in" data-toggle="tooltip"
 											data-original-title="login" id="menu"></span></a></li>
 
-									<li><a href="joinForm.did" id="menu1"><span
+									<li><a href="member/joinForm" id="menu1"><span
 											class="glyphicon glyphicon-plus" data-toggle="tooltip"
 											data-original-title="join" id="menu"></span></a></li>
 
@@ -278,7 +278,7 @@
 		mt = (ch - sh) / 2; //가운데 띄우기위한 창의 y위치
 
 		window
-				.open('member/login.jsp', 'tst', 'width=' + sw + ',height='
+				.open('member/loginForm', 'tst', 'width=' + sw + ',height='
 						+ sh + ',top=' + mt + ',left=' + ml
 						+ ',resizable=no,scrollbars=yes');
 

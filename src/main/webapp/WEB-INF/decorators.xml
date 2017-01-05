@@ -11,10 +11,10 @@
 	
 	<excludes>
 		<pattern>/findZipNum.did*</pattern>
-		<pattern>/admin/findZipNum.did*</pattern>
-		<pattern>/idCheckForm.did*</pattern>	
-		<pattern>/admin/adminLoginForm.did</pattern>
-		<pattern>/member/login.jsp</pattern>
+		<pattern>/admin/findZipNum*</pattern>
+		<pattern>/member/idCheckForm*</pattern>	
+		<pattern>/admin/adminLoginForm</pattern>
+		<pattern>/member/loginForm</pattern>
 	</excludes>
 	
 </decorators>
